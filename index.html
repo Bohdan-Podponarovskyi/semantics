@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Семантичні елементи</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <article>
+        <header>
+            <h1>HTML5 Семантичні елементи</h1>
+            <nav>
+                <ul>
+                    <li><a href="#elements_list">Elements list</a></li>
+                    <li><a href="#element_section">Element "Section"</a></li>
+                    <li><a href="#element_article">Element "Article"</a></li>
+                    <li><a href="#element_header">Element "Header"</a></li>
+                    <li><a href="#element_footer">Element "Footer"</a></li>
+                </ul>
+            </nav>
+        </header>
+        <p>Семантичний елемент чітко описує його значення як для браузера, так і для розробника.</p>
+        <p>Приклади не семантичних елементів: &lt;div&gt; і &lt;span&gt; - нічого не говорить про його вміст.</p>
+        <p>Приклади семантичних елементів: &lt;form&gt;, &lt;table&gt; і &lt;article&gt; - чітко визначає його вміст.</p>
+    </article>
+    <section>
+        <h2>Підтримка браузерів</h2>
+        <img src="img/Logos.png" alt="Browsers logos">
+        <p>Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах.</p>
+        <p>Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі eлементи"</p>
+        <p>Прочитайте про це в
+            <a href="https://www.blogger.com/blog/page/edit/2590532390801722394/850003172824707311#">підтримці браузера HTML5</a>.
+        </p>
+    </section>
+    <section id="elements_list">
+        <h2>Нові семантичні елементи в HTML5</h2>
+        <p>HTML5 пропонує нові семантичні елементи для визначення різних частин веб-сторінки:</p>
+        <ul>
+            <li>&lt;section&gt;</li>
+            <li>&lt;article&gt;</li>
+            <li>&lt;header&gt;</li>
+            <li>&lt;footer&gt;</li>
+        </ul>
+    </section>
+    <section id="element_section">
+        <h2>HTML5 &lt;section&gt; елемент</h2>
+        <p>Елемент &lt;section&gt; визначає розділ в документі.</p>
+        <p>Згідно з W3C HTML5 документацією: "розділ представляє собою тематичне угруповання контенту, зазвичай з заголовком".</p>
+        <p>Домашня сторінка зазвичай може бути розділена на розділи для ознайомлення, змісту і контактної інформації.</p>
+        <img src="img/Section_example.png" alt="Section example code">
+    </section>
+    <section id="element_article">
+        <h2>HTML5 &lt;article&gt; елемент</h2>
+        <p>Елемент &lt;article&gt; визначає незалежний, автономний вміст.</p>
+        <p>Стаття повинна мати сенс самостійно, і вона повинна мати можливість читати його незалежно від іншої частини веб-сайту.</p>
+        <p>Приклади того, де можна використовувати елемент &lt;article&gt;:</p>
+        <ul>
+            <li>Повідомлення на форумі</li>
+            <li>Блозі</li>
+            <li>Газетна стаття</li>
+        </ul>
+        <img src="img/Article_example.png" alt="Article example code">
+    </section>
+    <section id="element_header">
+        <h2>HTML5 &lt;header&gt; елемент</h2>
+        <p>Елемент &lt;header&gt; задає заголовок для документа або розділу.</p>
+        <p>Елемент &lt;header&gt; повинен використовуватися в якості контейнера для вступного змісту.</p>
+        <p>В одному документі може бути кілька елементів &lt;header&gt;.</p>
+        <p>У наступному прикладі визначається заголовок для статті:</p>
+        <img src="img/Header_example.png" alt="Header example code">
+    </section>
+    <section id="element_footer">
+        <h2>HTML5 &lt;footer&gt; елемент</h2>
+        <p>Елемент &lt;footer&gt; вказує нижній колонтитул для документа або розділу.</p>
+        <p>Нижній колонтитул зазвичай містить автора документа, інформацію про
+            авторське право, посилання на умови використання, контактні дані і т.д.</p>
+        <p>В одному документі може бути кілька елементів &lt;footer&gt;.</p>
+        <img src="img/Footer_example.png" alt="Footer example code">
+    </section>
+</body>
+<footer>
+    <h3>Additional information</h3>
+    <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen frameborder="0" height="315"
+            src="https://www.youtube.com/embed/dEBVe8Ij7JU"
+            title="YouTube video player"
+            width="560">
+    </iframe>
+    <iframe
+            src="https://bohdan-podponarovskyi.github.io/CV/"
+            width="100%"
+            height="500"
+            sandbox>
+    </iframe>
+</footer>
+</html>
